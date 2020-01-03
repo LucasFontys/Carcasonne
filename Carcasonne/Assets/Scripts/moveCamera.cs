@@ -32,24 +32,24 @@ public class moveCamera : MonoBehaviour
     void MoveRight()
     {
         Debug.Log("You have clicked the button!");
-        mainCamera.transform.position = mainCamera.transform.position + new Vector3(4, 0);
+        mainCamera.transform.position = mainCamera.transform.position + new Vector3(2, 0);
     }
 
     void MoveLeft()
     {
         Debug.Log("You have clicked the button!");
-        mainCamera.transform.position = mainCamera.transform.position + new Vector3(-4, 0);
+        mainCamera.transform.position = mainCamera.transform.position + new Vector3(-2, 0);
     }
 
     void MoveUp()
     {
         Debug.Log("You have clicked the button!");
-        mainCamera.transform.position = mainCamera.transform.position + new Vector3(0, 4);
+        mainCamera.transform.position = mainCamera.transform.position + new Vector3(0, 2);
     }
 
     void MoveDown()
     {
         Debug.Log("You have clicked the button!");
-        mainCamera.transform.position = mainCamera.transform.position + new Vector3(0, -4);
+        mainCamera.transform.position = mainCamera.transform.position + new Vector3(0, -2);
     }
 }
